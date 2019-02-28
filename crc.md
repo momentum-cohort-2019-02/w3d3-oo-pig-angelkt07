@@ -27,12 +27,14 @@ Class FirstPlayer(self):
     if first player = Computer
         then rotate.
 
-Class NextPlayer?? or have method in turn class to rotate players
+Class FirstTurn(self):
+    if turns = 0:
+        return RandomRoll
+
 
 Class Score(self):
-    self.score = score
+    self.score = score -> start_score=0
     self.new_score = new_score
-    self.score(start_score=0)
 
 Class RandomRoll(self)
     if user selects "R" for roll, 
@@ -55,3 +57,23 @@ Class Turn(self):
         declare winner
     else:
         keep_playing and rotate player
+
+
+
+"""
+My example of PIG game: 
+
+- 1st player is random.
+    -> returns which player goes first
+    -> sets variable in Class FirstPlayer
+
+- 1st player RandomRoll(R) dice to get random side:
+    -> if RandomRoll = 1:
+        score += 0
+        
+        else:
+
+
+
+
+"""

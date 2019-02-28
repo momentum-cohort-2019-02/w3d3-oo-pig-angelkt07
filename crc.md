@@ -27,10 +27,15 @@ Class FirstPlayer(self):
     if first player = Computer
         then rotate.
 
-Class FirstTurn(self):
+Class Turns(self):
     if turns = 0:
         return RandomRoll
-
+    else:
+        enter R for Roll or H for Hold
+            if R:
+                return RandomRoll()
+            else:
+                
 
 Class Score(self):
     self.score = score -> start_score=0
@@ -70,7 +75,7 @@ My example of PIG game:
 - 1st player RandomRoll(R) dice to get random side:
     -> if RandomRoll = 1:
         score += 0
-        
+
         else:
 
 

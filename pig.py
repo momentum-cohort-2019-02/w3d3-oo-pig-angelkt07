@@ -1,40 +1,35 @@
 import random
 
-class ComputerPlayer(self):
+class ComputerPlayer:
 
-    def __init__(self):
-    """ 
-    Computer player for game
-    """
-    self.name = name
-    return name
+    def __init__(self, name):
+        self.name = name
 
-    def name(self):
-        pass
+    def __str__(self):
+        return str(self.name)
+
+
     
 
-class HumanPlayer(self):
+class HumanPlayer:
 
     def __init__(self):
-    """
-    Human player to play the game.
-    """
         pass
 
-class Dice(self):
+class Dice:
 
-    def __init__(self, side=(1:6))
-    """Creating function for dice for random selection.
-    """
+    def __init__(self, side=range(0,6)):
+
         self.side = side
+        return side
     
     def random_roll():
         return random.side
 
 class PlayGame:
+    pass
 
 
 
 if __name__ == "__main__":
-
-main()
+    pass

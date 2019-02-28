@@ -8,7 +8,10 @@ class ComputerPlayer(self):
     """
     self.name = name
     return name
-    pass
+
+    def name(self):
+        pass
+    
 
 class HumanPlayer(self):
 
@@ -20,13 +23,18 @@ class HumanPlayer(self):
 
 class Dice(self):
 
-    def __init__(self, side)
+    def __init__(self, side=(1:6))
     """Creating function for dice for random selection.
     """
+        self.side = side
+    
+    def random_roll():
+        return random.side
 
 class PlayGame:
 
 
 
 if __name__ == "__main__":
-    pass
+
+main()
